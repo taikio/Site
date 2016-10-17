@@ -1,0 +1,217 @@
+header{
+	margin-bottom: 70px;
+}
+.navbar{
+	padding: 10px 0;
+	background-color: #fff !important;
+	margin-bottom: 70px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #777;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus{
+	background-color: #99DE00 !important;
+	border-radius: 4px;
+}
+.banner{
+	
+	background: url("../images/bg-banner.jpg") no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-top: 25px;
+	position: relative;
+}
+.banner-text{
+	position: absolute;
+	color: #fff;
+	font-size: 22px;
+	top: 200px;
+	left: 800px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.testimonial{
+	min-height: 100px;
+	max-height: 300px;
+	background-color: #4caf50;
+	color: #fff;
+	font-size: 18px;
+	padding: 14px 10px 10px 10px;
+}
+.services{
+	margin-top: 70px;
+	font-size: 46px;
+}
+.services-tiles{
+	margin-top:60px;
+}
+.services-tile{
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	padding-top: 12px !important;
+	/*margin-right: 4px;
+	margin-left:  4px; */ 
+	box-shadow: 0 0 4px #888888;
+}
+.services-tile p{
+	font-size: 16px;
+}
+.space{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+footer{
+	margin-top: 2px;
+	background-color: #777;
+	color: #fff;
+	font-weight: 600;
+}
+footer h5{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+footer a, footer a:hover, footer a:active, footer a:focus{
+	color: #fff;
+}
+.banner-footer{
+	background: url('../images/atendente-1.jpg') no-repeat;
+	background-size: cover;
+	height: 700px;
+	margin-top: 100px;
+}
+.triangle:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	/*margin-right: 10px; */
+	width: 100%; 
+	height: 0; 
+
+	border-left: 295px solid transparent;
+	/*border-right: 5px solid transparent; */
+	border-bottom: 700px solid #000;
+	opacity: 0.6;
+
+	/*background-image: linear-gradient(to bottom, transparent, #fff, 30%); */
+}
+.testimonial-footer{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.footer-text{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 42px;
+}
+.about{
+	font-size: 16px;
+}
+.contatos{
+	font-size: 22px;
+}
+
+
+/* ----------------- Media Queries -------------------------- */
+/* Large devices Desktops (1200px)*/
+@media screen and (min-width: 1601px)  {
+
+
+}
+@media screen and (min-width: 1451px) and (max-width: 1600px) {
+
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1450px) {
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+
+}
+
+/* Medium devices Desktops (992px) */
+@media screen and (min-width: 979px) and (max-width: 1200px) {
+	.banner-text{
+		position: absolute;
+		font-size: 14px;
+		top: 160px;
+		left: 600px;
+		font-weight: 600;
+
+	}
+}
+
+/* Small devices Tablets (768px) */
+@media screen and (min-width: 767px) and (max-width: 978px) {
+	.space{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.banner-text{
+		position: absolute;
+		font-size: 14px;
+		top: 130px;
+		left: 530px;
+		font-weight: 600;
+
+	}
+}
+
+/* Extra small devices Phones (<768px) */
+@media screen and (min-width: 480px) and (max-width: 766px) {
+	.space{
+		margin-left: 0;
+		margin-right: 0;
+	} 
+	.banner-text{
+		position: absolute;
+		font-size: 14px;
+		top: 140px;
+		left: 320px;
+		font-weight: 600;
+
+	}  
+	.contatos{
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 321px) and  (max-width: 480px) {
+	.space{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.banner-text{
+		position: absolute;
+		font-size: 14px;
+		top: 140px;
+		left: 320px;
+		font-weight: 600;
+
+	}  
+	.contatos{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width : 320px) {
+	.space{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.banner-text{
+		position: absolute;
+		font-size: 10px;
+		top: 30px;
+		left: 20px;
+		font-weight: 600;
+
+	}  
+	.contatos{
+		font-size: 16px;
+	}
+}
+/* ----------------- Media Queries -------------------------- */

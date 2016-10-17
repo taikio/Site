@@ -1,0 +1,27 @@
+{
+  "name": "sistemac",
+  "authors": [
+    "taikio <elkerafereira@hotmail.com>"
+  ],
+  "description": "Site institucional para a empresa sistemac",
+  "main": "index.html",
+  "keywords": [
+    "sistemas",
+    "system",
+    "Sistemac"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
